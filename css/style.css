@@ -1,5 +1,125 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color: #fff;
+}
+
+main{
+    /* background-color:white; */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.re-learn{
+    background-color: white;
+    padding: 10px;
+     text-align: center;
+     color: #484A5D;
+}
+
+.re-learn  span{
+    color: #EC1600;
+}
+
+.main{
+    font-size: 26px;
+}
+
+.main{
+    color: #fff;
+    text-align: center;
+    background-image: url(https://res.cloudinary.com/dmz79kgf0/image/upload/v1531477972/background_image_soz3va.png);
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size:auto;
+    height: 300px;
+    
+}
+
+p img{
+    margin-top: 20px;
+    width: 150px;
+    padding-bottom: 25px;
+    /* font-weight: 900; */
+
+}
+
+.span{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.paragraph{
+    font-size: 15px;
+    line-height: 16px;
+    padding-bottom: 20px;
+}
+
+.small{
+    font-size: 15px;
+}
+
+.about{
+    font-size:30px;
+}
+
+.acti{
+    color:#000;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.time,.date,.tie{
+    padding-top: 10px;
+}
+
+.write{
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+.code{
+    text-align: center;
+    width: 564px;
+    padding-bottom: 20px;
+}
+
+.cod{
+    text-align: center;
+    width:550px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.co{
+    text-align: center;
+    width: 538px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer{
+    background-color: #484A5D;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer img{
+    width: 150px;
+    margin-left: 40px;
 }
